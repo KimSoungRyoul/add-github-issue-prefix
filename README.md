@@ -7,9 +7,10 @@ for people who always said "oh I forgot to prefix msg"
 this hook are made to contain prefix github issue
 
 #### branch -> commit msg prefix
-* feat/#111  -> #111
-* feature/#111  -> #111
-* fix/#111-hello-branch -> #111
+* feat/#111  -> [#111]
+* feature/#111  -> [#111]
+* fix/#111-hello-branch -> [#111]
+* chore/#111-run-autoflake -> [#111]
 
 
 ## 1. Quick Start
@@ -42,7 +43,7 @@ pre-commit install --hook-type prepare-commit-msg
     hooks:
     -   id: add-github-issue-prefix
         args:
-            - --template=[{}] # default: {}
-            - --regex=[{}] # default: (build|ci|chore|docs|feat|feature|fix|perf|refactor|style|test|revert)\/\#\d{1,5}
+            - --template=[{}] # default: [{}]
+            - --regex='#\d{1,5}' # default: #\d{1,5}"
 
 ```
