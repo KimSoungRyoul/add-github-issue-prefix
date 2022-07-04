@@ -24,7 +24,7 @@ this hook are made to contain prefix github issue
 # .pre-commit-config.yaml
 repos:
   - repo: https://github.com/KimSoungRyoul/add-github-issue-prefix
-      rev: v1.0.0 
+      rev: v1.0.4
       hooks:
         - id: add-github-issue-prefix
 ```
@@ -39,7 +39,7 @@ pre-commit install --hook-type prepare-commit-msg
 
 ```yaml
 -   repo: https://github.com/KimSoungRyoul/add-github-issue-prefix
-    rev: v1.0.0 
+    rev: v1.0.4
     hooks:
     -   id: add-github-issue-prefix
         args:
