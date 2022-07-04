@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "add_msg_issue_prefix_hook"
+name = "add_github_issue_prefix"
 version = "v1.0.0"
 description = "커밋할때 브랜치명에 github issue번호를 찾아서 커밋메시지 앞단에 자동으로 반영합니다."
 authors = ["soungryoul.kim <soungryoul.kim@navercorp.com>"]
