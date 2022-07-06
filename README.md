@@ -24,9 +24,9 @@ this hook are made to contain prefix github issue
 # .pre-commit-config.yaml
 repos:
   - repo: https://github.com/KimSoungRyoul/add-github-issue-prefix
-      rev: v1.0.4
-      hooks:
-        - id: add-github-issue-prefix
+    rev: v1.0.4
+    hooks:
+      - id: add-github-issue-prefix
 ```
 
 3. install hook ( script is created under the `.git/hooks` )
