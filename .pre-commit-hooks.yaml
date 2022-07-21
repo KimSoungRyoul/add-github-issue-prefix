@@ -3,5 +3,5 @@
     description: find github issue number and use prefix commit msg
     entry: add-github-issue-prefix
     language: python
-    always_run: true
+    always_run: false
     stages: [prepare-commit-msg]
